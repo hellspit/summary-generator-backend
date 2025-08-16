@@ -21,7 +21,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000", 
-        "https://your-frontend-domain.com",
+        "https://summary-generator-frontend.vercel.app",
         "https://*.vercel.app",
         "https://*.railway.app",
         "https://*.render.com"
